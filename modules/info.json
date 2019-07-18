@@ -1,6 +1,8 @@
 {
-    "name": "Standard Document Modules",
+    "name": "Embedded Media  Modules",
     "sort": [
-        "basic"
+        "common",
+        "sns",
+        "movies"
     ]
 }

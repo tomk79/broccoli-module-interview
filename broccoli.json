@@ -1,5 +1,6 @@
 {
-    "name": "Embedded Media Modules",
+    "id": "interview",
+    "name": "Interview Article",
     "type": "module",
     "path": "modules/"
 }

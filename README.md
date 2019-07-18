@@ -1,6 +1,6 @@
-# Broccoli Module: Embedded Media Modules
+# Broccoli Module: Interview Article
 
-### tomk79/broccoli-module-medias v0.0.1 (リリース日未定)
+### tomk79/broccoli-module-interview v0.0.1 (リリース日未定)
 
 - Initial release.
 
