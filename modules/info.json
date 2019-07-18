@@ -1,8 +1,7 @@
 {
-    "name": "Embedded Media  Modules",
+    "name": "Interview Article",
     "sort": [
-        "common",
-        "sns",
-        "movies"
+        "text",
+        "info"
     ]
 }

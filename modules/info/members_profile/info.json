@@ -1,0 +1,45 @@
+{
+    "name": "プロフィール",
+    "interface": {
+        "fields": {
+            "name": {
+                "fieldType": "input",
+                "type": "text",
+                "label": "名前",
+                "rows": 1
+            },
+            "title": {
+                "fieldType": "input",
+                "type": "text",
+                "label": "肩書",
+                "rows": 1
+            },
+            "photo": {
+                "fieldType": "input",
+                "type": "image",
+                "label": "写真"
+            },
+            "color": {
+                "fieldType": "input",
+                "type": "select",
+                "label": "回答者名の色",
+                "display": "select",
+                "options": [
+                    {"value":"#ff6347", "label":"tomato"},
+                    {"value":"#228b22", "label":"forestgreen"},
+                    {"value":"#4169e1", "label":"royalblue"},
+                    {"value":"#ffa500", "label":"orange"},
+                    {"value":"#ff69b4", "label":"hotpink"},
+                    {"value":"#9400d3", "label":"darkviolet"},
+                    {"value":"#808000", "label":"olive"},
+                    {"value":"#20b2aa", "label":"lightseagreen"}
+                ]
+            },
+            "introduction": {
+                "fieldType": "input",
+                "type": "multitext",
+                "label": "コメント"
+            }
+        }
+    }
+}

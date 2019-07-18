@@ -5,25 +5,19 @@
             "fields": {
                 "main": [
                     {
-                        "modId": "pickles2:movies/youtube-media",
+                        "modId": "pickles2:info/members_profile",
                         "fields": {
-                            "caption": {
-                                "src": "YouTube動画のサンプルです",
-                                "editor": "markdown"
+                            "name": "少年<A>",
+                            "title": "開発者 <ウェブ系>",
+                            "photo": {
+                                "resKey": "3382792c91441919b350101465624537",
+                                "path": "./index_files/resources/photo_a.png",
+                                "resType": "",
+                                "webUrl": ""
                             },
-                            "html": "<iframe width=\"753\" height=\"445\" src=\"https://www.youtube.com/embed/yUnckFu7SNs?list=PL5ZUBZrE-CkDSYUvVZNDCILrzGhRG2U8L\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-                            "youtube_movie_id": "",
-                            "youtube_list_id": ""
-                        },
-                        "anchor": "",
-                        "dec": ""
-                    },
-                    {
-                        "modId": "pickles2:common/html",
-                        "fields": {
-                            "html": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftomk79%2Fposts%2F2214827688570701&width=500\" width=\"500\" height=\"517\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allow=\"encrypted-media\"></iframe>",
-                            "caption": {
-                                "src": "",
+                            "color": "#228b22",
+                            "introduction": {
+                                "src": "ウェブ系エンジニアしてます。ウェブデザイナー、ウェブディレクターとしてウェブ制作の仕事に携わり、今はエンジニア職に流れ着きました。誰かのお仕事をちょっとだけ効率化するような支援ツールの開発が好き。オープンソースとMITライセンス大好き。人生後半は自由と民主主義のコントリビューターとして過ごす予定。\n\nウェブ制作支援ツール <a href=\"https://pickles2.pxt.jp/\" target=\"_blank\">Pickles 2</a> をオープンソースで開発しています。",
                                 "editor": "markdown"
                             }
                         },
@@ -31,11 +25,19 @@
                         "dec": ""
                     },
                     {
-                        "modId": "pickles2:sns/twitter-tweet",
+                        "modId": "pickles2:info/members_profile",
                         "fields": {
-                            "html": "<blockquote class=\"twitter-tweet\" data-lang=\"ja\"><p lang=\"ja\" dir=\"ltr\">民主主義 とは、 万人の叡智を結集する技術</p>&mdash; Tomoya Koyanagi (@tomk79) <a href=\"https://twitter.com/tomk79/status/1109129020036141056?ref_src=twsrc%5Etfw\">2019年3月22日</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
-                            "caption": {
-                                "src": "",
+                            "name": "少年B",
+                            "title": "開発者",
+                            "photo": {
+                                "resKey": "3ad5dfa5e219bcbb4d6a47b0aa870371",
+                                "path": "./index_files/resources/photo_b.png",
+                                "resType": "",
+                                "webUrl": ""
+                            },
+                            "color": "#ff6347",
+                            "introduction": {
+                                "src": "ウェブ系エンジニアしてます。ウェブデザイナー、ウェブディレクターとしてウェブ制作の仕事に携わり、今はエンジニア職に流れ着きました。誰かのお仕事をちょっとだけ効率化するような支援ツールの開発が好き。オープンソースとMITライセンス大好き。人生後半は自由と民主主義のコントリビューターとして過ごす予定。\n\nウェブ制作支援ツール <a href=\"https://pickles2.pxt.jp/\" target=\"_blank\">Pickles 2</a> をオープンソースで開発しています。",
                                 "editor": "markdown"
                             }
                         },
@@ -43,40 +45,75 @@
                         "dec": ""
                     },
                     {
-                        "modId": "std-document:medias/float",
+                        "modId": "pickles2:text/interviewer_comment",
                         "fields": {
-                            "lr": "r",
-                            "image-size": "1of3",
-                            "media": [
-                                {
-                                    "modId": "pickles2:movies/youtube-media",
-                                    "fields": {
-                                        "caption": {
-                                            "src": "YouTube動画のサンプルです",
-                                            "editor": "markdown"
-                                        },
-                                        "html": "",
-                                        "youtube_movie_id": "yUnckFu7SNs",
-                                        "youtube_list_id": "PL5ZUBZrE-CkDSYUvVZNDCILrzGhRG2U8L"
-                                    },
-                                    "anchor": "",
-                                    "dec": ""
-                                }
-                            ],
-                            "body_rect": "-rect",
-                            "main": [
-                                {
-                                    "modId": "std-document:basics/text",
-                                    "fields": {
-                                        "main": {
-                                            "src": "## Float Media Block\n\nこのモジュールは、テキストを回り込むメディア表示領域を作成します。\n\n回り込む方向を右か左のいずれかで選択します。 メディアの大きさは、幅 1/2、1/3、1/4 のサイズから選択することができます。\n\nまた、テキスト領域を回り込むか、矩形とするかを選択することもできます。\n",
-                                            "editor": "markdown"
-                                        }
-                                    },
-                                    "anchor": "",
-                                    "dec": ""
-                                }
-                            ]
+                            "comment": {
+                                "src": "本日はよろしくお願いいたします。",
+                                "editor": "markdown"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:text/interviewee_comment",
+                        "fields": {
+                            "name": "少年<A>",
+                            "color": "#228b22",
+                            "comment": {
+                                "src": "よろしくお願いします。",
+                                "editor": "markdown"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:text/interviewee_comment",
+                        "fields": {
+                            "name": "少年B",
+                            "color": "#ff6347",
+                            "comment": {
+                                "src": "よろしくお願いします。",
+                                "editor": "markdown"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:text/interviewer_comment",
+                        "fields": {
+                            "comment": {
+                                "src": "どうして、<a href=\"https://ja.wikipedia.org/wiki/%E7%B5%8C%E6%B8%88%E7%9A%84%E4%B8%8D%E5%B9%B3%E7%AD%89\" target=\"_blank\">経済格差</a>は小さい方が良いのでしょうか？\n\nおカネとは何でしょう？",
+                                "editor": "markdown"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:text/interviewee_comment",
+                        "fields": {
+                            "name": "少年<A>",
+                            "color": "#228b22",
+                            "comment": {
+                                "src": "経済的な格差が広がっていくことが問題とされます。これは、富の偏在、つまり おカネ持ちがどんどんおカネ持ちになっていき、貧困がより深刻な貧困となって広がっていくことです。\n\n一方で、真面目に働き、多くの生活者に貢献した者に、より多くの見返りがあるのは当然だ、とも思えます。実際に、そのようにして、たくさんのモノやサービスが生まれ、私達の暮らしは便利に、安全に、豊かになりました。\n\nおカネに総量がある以上、一部の貢献者にだけ見返りとして多くの収入があれば、その分だけ他の誰かのおカネが減るはずで、格差が広がることになります。どちらも当たり前のように納得してしまいますが、この2つの立場は対立していることになりそうです。\n\n<a href=\"https://www.pxt.jp/ja/diary/article/2019/307_why_should_the_economic_gap_be_small/\" target=\"_blank\">本稿</a>では、経済格差拡大がなぜ問題なのか？ それとも実は問題ではないのか？ について考えたいと思います。",
+                                "editor": "markdown"
+                            }
+                        },
+                        "anchor": "",
+                        "dec": ""
+                    },
+                    {
+                        "modId": "pickles2:text/interviewee_comment",
+                        "fields": {
+                            "name": "",
+                            "color": "#228b22",
+                            "comment": {
+                                "src": "おカネは、現代社会のあらゆる活動に関わっています。私達の日常生活の根底を流れている基盤となっています。ゆえに、おカネの本質を問うことは難しく、文脈や立場によって様々な側面を見つけることができると思います。 ここではその1つの側面として、 数値化され可視化された権力の量 としての おカネ について考えます。",
+                                "editor": "markdown"
+                            }
                         },
                         "anchor": "",
                         "dec": ""

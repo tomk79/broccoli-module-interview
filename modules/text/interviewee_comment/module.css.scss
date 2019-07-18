@@ -1,0 +1,13 @@
+.px2-interview-article-interviewee-comment{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	&__name{
+		float: left;
+		padding-right: 0.5em;
+		font-weight: bold;
+		&::after{
+			content: ":";
+			margin-left: 0.2em;
+		}
+	}
+}

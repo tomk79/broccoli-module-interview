@@ -1,0 +1,12 @@
+{
+    "name": "インタビュワーコメント",
+    "interface": {
+        "fields": {
+            "comment": {
+                "fieldType": "input",
+                "type": "multitext",
+                "label": "コメント"
+            }
+        }
+    }
+}

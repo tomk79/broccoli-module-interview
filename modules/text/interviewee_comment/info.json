@@ -1,0 +1,34 @@
+{
+    "name": "回答者コメント",
+    "interface": {
+        "fields": {
+            "name": {
+                "fieldType": "input",
+                "type": "text",
+                "label": "回答者名",
+                "rows": 1
+            },
+            "color": {
+                "fieldType": "input",
+                "type": "select",
+                "label": "回答者名の文字色",
+                "display": "select",
+                "options": [
+                    {"value":"#ff6347", "label":"tomato"},
+                    {"value":"#228b22", "label":"forestgreen"},
+                    {"value":"#4169e1", "label":"royalblue"},
+                    {"value":"#ffa500", "label":"orange"},
+                    {"value":"#ff69b4", "label":"hotpink"},
+                    {"value":"#9400d3", "label":"darkviolet"},
+                    {"value":"#808000", "label":"olive"},
+                    {"value":"#20b2aa", "label":"lightseagreen"}
+                ]
+            },
+            "comment": {
+                "fieldType": "input",
+                "type": "multitext",
+                "label": "コメント"
+            }
+        }
+    }
+}

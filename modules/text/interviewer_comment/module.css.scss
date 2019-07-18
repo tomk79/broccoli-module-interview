@@ -1,0 +1,10 @@
+.px2-interview-article-interviewer-comment{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-weight: bold;
+	&::before{
+		content: "――";
+		float: left;
+		padding-right: 0.5em;
+	}
+}
