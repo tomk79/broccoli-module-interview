@@ -1,6 +1,6 @@
 # Broccoli Module: Interview Article
 
-### tomk79/broccoli-module-interview v0.0.1 (リリース日未定)
+### tomk79/broccoli-module-interview v0.0.1 (2019年7月19日)
 
 - Initial release.
 
